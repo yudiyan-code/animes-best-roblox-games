@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --fontepadrao: "Poppins", sans-serif;
+    --fontedestaque: "New Amsterdam", sans-serif; 
+    --cor0: #EBB900;
+    --cor1: #EBB64E;
+    --cor2: #EB9C00;
+    --cor3: #EB7C00;
+    --cor4: #EB5300;
+    --cor5: #eacea79a;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor5)
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4) );
+    padding: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.514);
+}
+
+h1 {
+    font-family: var(--fontedestaque);
+    color: white;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.445);
+    font-size: 60px;
+}
+
+h2 {
+    font-family: var(--fontepadrao);
+    font-size: 40px;
+    padding: 40px;
+    text-indent: 30px;
+    font-weight: 30px;
+}
+
+h3 {
+    font-family: var(--fontepadrao);
+    font-size: 30px;
+    padding: 20px;
+    text-indent: 30px;
+    font-weight: 30px;
+}
+
+p {
+    font-family: var(--fontepadrao);
+    color: white;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.445);
+}
+
+ul {
+    font-family: var(--fontepadrao);
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1150px;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+}
+
+div.video {
+    position: relative;
+    padding-bottom: 58%;
+}
+
+div.video > iframe {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.733);
+    text-decoration: none;
+}
+
+button {
+    width: 210px;
+    height: 60px;
+    margin: 30px;
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    font-size: 40px;
+    font-family: var(--fontedestaque);
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.445);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    }
+
+
+button:hover {
+    width: 90%;
+    transition: 0.5s;
+    transition: all 0.5s ease-in-out;
+}
+
+.maisvideos {
+    margin-left: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4) );
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.445);
+}
+

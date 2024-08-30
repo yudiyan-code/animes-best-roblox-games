@@ -60,10 +60,10 @@ p {
     text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.445);
 }
 
-ul {
+main < ul {
     font-family: var(--fontepadrao);
     font-size: 16px;
-    margin: 20px;
+    margin-left: 35px;
 }
 
 img {

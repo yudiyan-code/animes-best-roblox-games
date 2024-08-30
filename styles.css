@@ -42,7 +42,7 @@ h2 {
     font-family: var(--fontepadrao);
     font-size: 40px;
     padding: 40px;
-    text-indent: 30px;
+    text-indent: 10px;
     font-weight: 30px;
 }
 
@@ -50,7 +50,7 @@ h3 {
     font-family: var(--fontepadrao);
     font-size: 30px;
     padding: 20px;
-    text-indent: 30px;
+    text-indent: 10px;
     font-weight: 30px;
 }
 
